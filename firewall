@@ -1,0 +1,2 @@
+firewall-cmd --add-service=dns,nfs,samba --zone=public --permanent --add-port=3260/tcp
+firewall-cmd --reload
